@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The diff command automatically searches through every line of code and
+    compares both of the files.
+    It pointed out all the changes and helped point out the typo in the word.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    In process of developing something, there are usually various versions.
+    Having easy access to the entire history of a file will make it easier
+    to revert back to a previous version and also help with debugging.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros
+    Manually choosing when to create a commit allows the user to save versions that
+    have reached a certain stage; one that is worth saving.
+    Cons
+    As a beginner choosing when to create a commit might not be as easy as it seems
+    and there's a possibility of loosing information by not saving at the right time,
+    or if the computer crashes unexpectedly without saving.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Sometimes the files are related and should be saved as multiple files in one commit.
+    Others such as Google Docs, treat each file separately mainly because they are independent
+    of each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log provided a summary of the history of the files along with the id for each commit.
+    Git diff is used to compare two commits by supplying the ids for the commits that are being compared.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Changes that end up breaking something can easily be reverted by checking out previous commits to see
+    the one that cause the change.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Hotels.ng internship
